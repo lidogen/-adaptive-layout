@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+
+.fff {
+	height: 38px;
+    color: #fff;
+    margin: 0 140px;
+    border: solid;
+    z-index: 10;
+}
+.head {
+	display: flex;
+}
+.center {
+    padding: 0 calc(50% - 512px);
+}
+
+.top-block ul li{
+	display:inline-block;
+	margin:0;
+	padding:0 30px;
+}
+.nav-link {
+	font-size: 18px;
+}
+.top-block {
+	width: 100vw;
+	height: 525px;
+	background: url(../img/bg13.png);
+	position: relative;
+	color: #fff;
+}
+.promise {
+	position: absolute;
+	width: 748px;
+	height: 207px;
+	left: 140px;
+	top: 161px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.promise h1 {
+	font-size: 48px;
+    line-height: 58px;
+}
+.promise h2 {
+	font-size: 36px;
+    line-height: 43px;
+}
+.promise input {
+	width: 360px;
+	height: 48px;
+	background: #008DCD;
+	border-radius: 30px;
+	outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
