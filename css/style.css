@@ -13,18 +13,14 @@ ul {
 	list-style-type: none;
 }
 
-.fff {
-	height: 38px;
-    color: #fff;
-    margin: 0 140px;
-    border: solid;
-    z-index: 10;
-}
 .head {
 	display: flex;
+	justify-content: space-between;
+	padding: 30px calc(50% - 576px);
+    align-items: center;
 }
 .center {
-    padding: 0 calc(50% - 512px);
+    padding: 0 calc(50% - 576px);
 }
 
 .top-block ul li{
@@ -46,7 +42,7 @@ ul {
 	position: absolute;
 	width: 748px;
 	height: 207px;
-	left: 140px;
+	left: 0;
 	top: 161px;
 	display: flex;
     flex-direction: column;
@@ -60,7 +56,7 @@ ul {
 	font-size: 36px;
     line-height: 43px;
 }
-.promise input {
+.btn {
 	width: 360px;
 	height: 48px;
 	background: #008DCD;
@@ -70,4 +66,215 @@ ul {
     text-transform: uppercase;
     font-size: 16px;
     color: white;
+}
+.btn:hover {
+	cursor: pointer;
+}
+
+.about{
+	background: #F7F7F7;
+	height: 457;
+}
+.about__continer {
+	height: 457px;
+    display: flex;
+    justify-content: space-between;
+}
+.substrate {
+	width: 660px;
+    padding: 60px 0;
+	position: relative;
+}
+.substrate::before {
+	content: '';
+	background: url(../img/bg2.png);
+	width: 200px;
+    height: 266px;
+	position: absolute;
+	top: 132px;
+	left: 240px;
+}
+.about__infopm {
+	width: 438px;
+    padding-top: 90px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 263px;
+}
+.about__infopm h2 {
+	font-size: 36px;
+}
+
+
+.pony {
+	position: absolute;
+	left: 34px;
+    bottom: 157px;
+	width: 100px;
+}
+.cdek {
+	position: absolute;
+	left: 133px;
+    bottom: 197px;
+	width: 70px;
+}
+.dpd {
+	position: absolute;
+	left: 17px;
+    bottom: 248px;
+	width: 100px;
+}
+.bringo {
+	position: absolute;
+	left: 137px;
+	bottom: 294px;
+	width: 70px;
+}
+.tnt {
+	position: absolute;
+    left: 416px;
+    bottom: 327px;
+    width: 70px;
+}
+.ups {
+	position: absolute;
+    left: 448px;
+    bottom: 212px;
+    width: 70px;
+}
+.city {
+	position: absolute;
+    width: 82px;
+    left: 551px;
+    bottom: 260px;
+}
+.spsr {
+	position: absolute;
+    width: 82px;
+    left: 551px;
+    bottom: 173px;
+}
+
+.Steps__continer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 70px 0;
+}
+.Steps__card {
+	width: 460px;
+	width: 460px;
+}
+.Steps__card h2 {
+   margin: 48px 0px 10px 0px;
+   font-style: 30px;
+}
+.Steps__card p {
+   font-size: 20px;
+}
+.Steps__form-block {
+	background: #F7F7F7;
+	height: 180px;
+	display: flex;
+    align-items: center;
+}
+.callMe-block__wreper {
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-block__content {
+	display: flex;
+	width: 100%;
+    justify-content: space-between;
+
+}
+.form-block__content h2{
+	font-size: 36px;
+}
+.Steps__callMe-block {
+	height: 240px;
+	background: #008DCD;
+	display: flex;
+    align-items: center;
+}
+.callMe-block__form {
+	width: 360px;
+}
+.callMe-block__text h2 {
+	font-size: 48px;
+    color: #fff;
+	text-transform: uppercase;
+}
+.callMe-block__text p {
+	font-size: 24px;
+    color: #fff;
+}
+.callMe-block__form .btn_ell {
+	background: #FFCC00;
+    margin: 9px 0;
+    color: #000;
+}
+.callMe-block__form .btn_br {
+	border: solid 1px #fff;
+	padding: 0 16px;
+	color: #fff;
+	text-transform: none;
+	width: 326px;
+}
+.callMe-block__form input::placeholder {
+
+	color: #fff;
+}
+label {
+	color: #fff;
+	font-size: 12px;
+	display: flex;
+    align-items: center;
+}
+label input {
+	margin-right: 6px;
+}
+
+
+.reviews {
+	margin: 70px 0;
+}
+.reviews h2 {
+	font-size: 36px;
+	padding-bottom: 60px;
+}
+.reviews__content {
+	display: flex;
+	justify-content: space-between;
+}
+.reviews__block {
+	height: 300px;
+	max-width: 460px;
+}
+.reviews__block span {
+	color: #c4c4c4;
+	font-size: 68px;
+}
+.reviews__block-img {
+	display: flex;
+}
+.reviews__block-img img {
+	margin: 0 28px 28px 0;
+}
+.reviews__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    padding-bottom: 30px;
+}
+.arrow {
+	display: flex;
+	align-items: center;
+}
+
+.advantages {
+	height: 496px;
+	background: #F7F7F7;
 }
